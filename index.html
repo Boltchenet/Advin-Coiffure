@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advin Barber - Spécialiste coupe homme, dégradé, barbe, soins capillaires. Prends RDV maintenant.">
+    <meta name="keywords" content="barbershop, coiffeur homme, dégradé, barbe, coupe traditionnelle">
+    <meta property="og:title" content="Advin Barber">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600334129128-685c5582fd35">
+    <meta property="og:description" content="L'Art du Masculin, Taillé sur Mesure">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://votresite.com">
+    <link rel="icon" href="favicon.ico">
+    <title>Advin Barber - Coiffure homme traditionnelle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Style temporaire pour l'ajustement */
+        .hero {
+            padding-top: 100px;
+            min-height: calc(100vh - 100px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-content {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-container">
+                <img src="https://cdn.leonardo.ai/users/5e4bcc46-0a16-4e33-9fa2-4a9c60c68c69/generations/2cce5078-6c0a-4f82-a100-a75a703835dd/segments/1:4:1/Flux_Dev_A_classic_vintageinspired_logo_design_for_a_barber_sh_0.jpg" alt="Advin Barber Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>ADVIN <span>BARBER</span></h1>
+                    <p>Depuis 2010</p>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#temoignages">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <button id="theme-toggle" class="theme-btn" aria-label="Changer le thème">
+            <i class="fas fa-moon"></i>
+        </button>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content fade-in">
+                <h2>L'Art du Masculin, Taillé sur Mesure</h2>
+                <p>14 RUE PAUL ET CAMILLE THOMOUX</p>
+                <a href="#contact" class="btn">Prendre RDV</a>
+            </div>
+        </section>
+
+        <section id="apropos" class="about">
+            <div class="container">
+                <div class="about-content fade-in">
+                    <h2>Notre Histoire</h2>
+                    <p>Fondé en 2010 par Adrien Vincent, Advin Barber est rapidement devenu une référence dans le domaine de la coiffure masculine traditionnelle. Notre équipe de professionnels passionnés vous accueille dans un cadre chaleureux et authentique.</p>
+                    <p>Nous combinons techniques ancestrales et tendances actuelles pour vous offrir une expérience unique.</p>
+                    <div class="signature">
+                        <p>Adrien Vincent</p>
+                        <p>Fondateur & Maître Barbier</p>
+                    </div>
+                </div>
+                <div class="about-img fade-in">
+                    <img src="https://images.unsplash.com/photo-1588514899099-e2df6951dde6" alt="Notre salon" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2 class="fade-in">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <i class="fas fa-cut"></i>
+                    <h3>Coupe Classique</h3>
+                    <p>Une coupe traditionnelle avec des finitions précises au rasoir.</p>
+                    <span>35€</span>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-air-freshener"></i>
+                    <h3>Soin Barbe</h3>
+                    <p>Nettoyage, hydratation et modelage de votre barbe pour un look impeccable.</p>
+                    <span>25€</span>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-shower"></i>
+                    <h3>Dégradé</h3>
+                    <p>Dégradé parfait avec transition fluide, réalisé par nos experts.</p>
+                    <span>45€</span>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-spa"></i>
+                    <h3>Rasage à l'Ancienne</h3>
+                    <p>Rasage traditionnel avec serviette chaude et produit de luxe.</p>
+                    <span>30€</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="galerie" class="gallery">
+            <h2 class="fade-in">Notre Travail</h2>
+            <div class="gallery-filter fade-in">
+                <button class="filter-btn active" data-filter="all">Tout</button>
+                <button class="filter-btn" data-filter="coupes">Coupes</button>
+                <button class="filter-btn" data-filter="barbes">Barbes</button>
+                <button class="filter-btn" data-filter="salon">Salon</button>
+            </div>
+            <div class="gallery-grid">
+                <a href="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1" target="_blank" class="fade-in gallery-item" data-category="coupes">
+                    <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=500&q=60" alt="Coupe de cheveux" loading="lazy">
+                </a>
+                <a href="https://images.unsplash.com/photo-1519699047748-de8e457a634e" target="_blank" class="fade-in gallery-item" data-category="coupes">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=500&q=60" alt="Dégradé moderne" loading="lazy">
+                </a>
+                <a href="https://images.unsplash.com/photo-1605497788044-5a32c7078486" target="_blank" class="fade-in gallery-item" data-category="barbes">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=500&q=60" alt="Barbe taillée" loading="lazy">
+                </a>
+                <a href="https://images.unsplash.com/photo-1585747860715-2ba37e788b70" target="_blank" class="fade-in gallery-item" data-category="salon">
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=500&q=60" alt="Intérieur du salon" loading="lazy">
+                </a>
+                <a href="https://images.unsplash.com/photo-1599351431405-41b9d8e2f1a8" target="_blank" class="fade-in gallery-item" data-category="coupes">
+                    <img src="https://images.unsplash.com/photo-1599351431405-41b9d8e2f1a8?auto=format&fit=crop&w=500&q=60" alt="Coupe fade" loading="lazy">
+                </a>
+                <a href="" target="_blank" class="fade-in gallery-item" data-category="salon">
+                    <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=500&q=60" alt="Espace détente" loading="lazy">
+                </a>
+            </div>
+        </section>
+
+        <section id="temoignages" class="testimonials">
+            <h2 class="fade-in">Ce que disent nos clients</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Meilleur barber de Neuilly-sur-Marne ! Mon dégradé est toujours parfait.</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Jean D." loading="lazy">
+                        <p>Jean D.</p>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Service exceptionnel et ambiance conviviale. Je recommande !</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Marie L." loading="lazy">
+                        <p>Marie L.</p>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>Rasage à l'ancienne top qualité. Mon barber attitré maintenant.</p>
+                    <div class="client-info">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Thomas P." loading="lazy">
+                        <p>Thomas P.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="fade-in">Prendre Rendez-vous</h2>
+            <div class="contact-container">
+                <form class="contact-form fade-in" id="booking-form">
+                    <h3>Réservez en ligne</h3>
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Prénom</label>
+                        <input id="name" type="text" placeholder="Votre prénom" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email</label>
+                        <input id="email" type="email" placeholder="Votre email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" class="sr-only">Téléphone</label>
+                        <input id="phone" type="tel" placeholder="Votre téléphone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service" class="sr-only">Service</label>
+                        <select id="service" required>
+                            <option value="">Choisissez un service</option>
+                            <option value="coupe">Coupe Classique (35€)</option>
+                            <option value="barbe">Soin Barbe (25€)</option>
+                            <option value="degrade">Dégradé (45€)</option>
+                            <option value="rasage">Rasage à l'Ancienne (30€)</option>
+                            <option value="complet">Forfait Complet (75€)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="datetime" class="sr-only">Date et heure</label>
+                        <input id="datetime" type="datetime-local" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea id="message" placeholder="Informations complémentaires"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Confirmer le RDV</button>
+                </form>
+
+                <div class="contact-info fade-in">
+                    <h3>Nos coordonnées</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 14 RUE PAUL ET CAMILLE THOMOUX 93330 Neuilly-sur-Marne</p>
+                    <p><i class="fas fa-phone"></i> 07 82 52 61 63</p>
+                    <p><i class="fas fa-envelope"></i> contact@advinbarber.com</p>
+                    <p><i class="fas fa-clock"></i> Ven-Sam-Dim: 9h30-20h | Lun: 10h-17h | Mar-Mer-Jeu: 9h30-20h</p>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.8583700792875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUxJzMwLjEiTiAywrAxNyc0MS4xIkU!5e0!3m2!1sfr!2sfr!4v1620000000000!5m2!1sfr!2sfr" 
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    
+                    <div class="social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <div class="footer-content">
+        <!-- Section Logo et description -->
+        <div class="footer-section">
+            <div class="footer-logo">
+                <img src="https://cdn.leonardo.ai/users/5e4bcc46-0a16-4e33-9fa2-4a9c60c68c69/generations/2cce5078-6c0a-4f82-a100-a75a703835dd/segments/1:4:1/Flux_Dev_A_classic_vintageinspired_logo_design_for_a_barber_sh_0.jpg" 
+                     alt="Advin Barber Logo" class="footer-logo-img">
+                <h3>ADVIN <span>BARBER</span></h3>
+            </div>
+            <p>L'excellence dans la coiffure masculine depuis 2010.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <!-- Section Newsletter -->
+        <div class="footer-section">
+            <h3>Newsletter</h3>
+            <p>Abonnez-vous pour recevoir nos offres spéciales et actualités.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Votre email" required>
+                <button type="submit" class="btn-newsletter">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+            <p class="privacy-text">
+                En vous inscrivant, vous acceptez notre 
+                <a href="#" class="privacy-link">politique de confidentialité</a>.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2023</span> Advin Barber - Tous droits réservés</p>
+        <div class="legal-links">
+            <a href="#">Mentions légales</a>
+            <span>•</span>
+            <a href="#">Politique de confidentialité</a>
+            <span>•</span>
+            <a href="#">Conditions générales</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
