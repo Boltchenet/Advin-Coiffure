@@ -222,7 +222,7 @@ nav ul li a:hover::before {
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('https://sdmntprwestus3.oaiusercontent.com/files/00000000-bdd4-61fd-b91a-4e9b0a1824c7/raw?se=2025-05-23T23%3A59%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=9c965100-95ac-5b26-827f-4793276c0fe2&skoid=24a7dec3-38fc-4904-b888-8abe0855c442&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-23T01%3A06%3A17Z&ske=2025-05-24T01%3A06%3A17Z&sks=b&skv=2024-08-04&sig=GgxcAuuz86qM0Twy8atzoFihEIeKmuGirvgraAfA51Q%3D') no-repeat center center/cover;
+                url('../images/barbervitrine.jpg') no-repeat center center/cover;
     color: #fff;
     display: flex;
     align-items: center;
@@ -244,7 +244,7 @@ nav ul li a:hover::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://sdmntprwestus3.oaiusercontent.com/files/00000000-bdd4-61fd-b91a-4e9b0a1824c7/raw?se=2025-05-24T01%3A34%3A19Z&sp=r&sv=2024-08-04&sr=b&scid=453aa98b-268f-56a0-bb37-d29da82b79b5&skoid=eb780365-537d-4279-a878-cae64e33aa9c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-23T18%3A19%3A27Z&ske=2025-05-24T18%3A19%3A27Z&sks=b&skv=2024-08-04&sig=YA0ADJl02bgUmUnmnNjzi6ZFGmUnoyT9Gb15J2sdtJI%3D') no-repeat center center/cover;
+    background: url('../images/barbervitrine.jpg') no-repeat center center/cover;
     z-index: -1;
     animation: zoomBackground 20s infinite alternate;
 }
