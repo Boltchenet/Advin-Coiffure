@@ -3,28 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('nav');
     const navLinks = document.querySelectorAll('nav ul li');
-    const themeToggle = document.getElementById('theme-toggle');
-    
-    // Gestion du thème
-    function setTheme(theme) {
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
-        
-        // Mettre à jour l'icône
-        const icon = themeToggle.querySelector('i');
-        icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
-    }
-    
-    // Vérifier le thème sauvegardé ou la préférence système
-    const savedTheme = localStorage.getItem('theme') || 
-                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    setTheme(savedTheme);
-    
-    // Basculer le thème
-    themeToggle.addEventListener('click', () => {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        setTheme(currentTheme === 'dark' ? 'light' : 'dark');
-    });
     
     // Menu burger
     burger.addEventListener('click', () => {
